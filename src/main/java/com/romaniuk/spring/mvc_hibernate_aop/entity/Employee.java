@@ -1,5 +1,6 @@
 package com.romaniuk.spring.mvc_hibernate_aop.entity;
 
+
 import javax.persistence.*;
 
 @Entity
