@@ -5,7 +5,7 @@
 <br>
 
 <h1>YES</h1>
-<a href="view/allEmployees.jsp">all Employees</a>
+<a href="employers/allEmployees.jsp">all Employees</a>
 
 </body>
 </html>
