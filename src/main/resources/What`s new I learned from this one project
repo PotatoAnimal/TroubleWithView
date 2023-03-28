@@ -1,0 +1,13 @@
+spring 5 - tomcat 9 - Java 8 - it`s javax
+spring 6 - tomcat 10 - Java 9+ - it`s jakarta
+
+always have a nice look at pom.xml
+check ur annotation. @RequestMapping good for everything but @PostMapping for post only. Take attention on that!
+
+How this works?
+You ask at MyController to do any of methods. Aspect around dao methods starts work. From MyController method u goes
+to serviceImpl, than to daoImpl. At DAOImpl ur methods have logic how they works.
+And after all of this u goes back to MyController return statement to go back to view. And there u have information
+after all logical process.
+MyController->ServiceImpl->DAOImpl->MyController.return.view->view.jsp
+28.03.2023
