@@ -1,0 +1,38 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5b4a4a;
+    color: #bb0000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the div containers */
+div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style for the h1 element */
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Add hover effect to the link */
+a:hover {
+    color: red;
+}
+
+/* Style for the h2 and h3 elements */
+h2, h3 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
