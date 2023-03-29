@@ -27,7 +27,7 @@ public class MyController {
     @GetMapping("/mypn.png")
     public ResponseEntity<byte[]> getImage() throws IOException {
         // Load the image file from disk
-        File imageFile = new File("src/main/webapp/WEB-INF/view/myPortfolioxD/mypn.png");
+        File imageFile = new File("D:\\UdemySpringCource\\spring_cource_mvc_hibernate_aop\\src\\main\\resources\\mypn.png");
         byte[] imageBytes = Files.readAllBytes(imageFile.toPath());
 
         // Set the content type and return the image bytes in a ResponseEntity

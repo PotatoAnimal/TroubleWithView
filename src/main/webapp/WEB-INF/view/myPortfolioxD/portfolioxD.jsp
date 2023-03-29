@@ -53,7 +53,7 @@
                 </div>
         </div>
         <div class="hero__box">
-            <img class="hero__box-img" src="mypn.png" alt="valorant pro  player">
+            <img class="hero__box-img" src="/resources/css/mypn.png" alt="valorant pro  player">
         </div>
     </div>
 </div>
